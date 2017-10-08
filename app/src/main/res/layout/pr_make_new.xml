@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.woojinkim.passiveroutineproto.MainActivity">
+    tools:context="com.example.woojinkim.passiveroutineproto.ui.MainActivity">
 
     <TextView
         android:id="@+id/pr_make_new_tv"

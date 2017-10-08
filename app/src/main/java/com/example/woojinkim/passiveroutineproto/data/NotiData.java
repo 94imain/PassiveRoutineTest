@@ -1,4 +1,4 @@
-package com.example.woojinkim.passiveroutineproto;
+package com.example.woojinkim.passiveroutineproto.data;
 
 /**
  * Created by woojinkim on 2017. 10. 8..

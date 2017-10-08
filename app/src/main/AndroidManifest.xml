@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrMakeNew" />
-        <activity android:name=".PrActionSelect" />
-        <activity android:name=".PrTriggerSelect" />
-        <activity android:name=".PrTriggerGeneralWeather" />
-        <activity android:name=".PrTriggerGeneralDate" />
-        <activity android:name=".PrTriggerSpecific" />
-        <activity android:name=".PrConfirm" />
-        <activity android:name=".PrActionGeneralNoti" />
-        <activity android:name=".PrActionSpecific"></activity>
+        <activity android:name=".ui.PrMakeNew" />
+        <activity android:name=".ui.PrActionSelect" />
+        <activity android:name=".ui.PrTriggerSelect" />
+        <activity android:name=".ui.PrTriggerGeneralWeather" />
+        <activity android:name=".ui.PrTriggerGeneralDate" />
+        <activity android:name=".ui.PrTriggerSpecific" />
+        <activity android:name=".ui.PrConfirm" />
+        <activity android:name=".ui.PrActionGeneralNoti" />
+        <activity android:name=".ui.PrActionSpecific"></activity>
     </application>
 
 </manifest>

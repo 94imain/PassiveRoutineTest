@@ -1,8 +1,10 @@
-package com.example.woojinkim.passiveroutineproto;
+package com.example.woojinkim.passiveroutineproto.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.woojinkim.passiveroutineproto.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
