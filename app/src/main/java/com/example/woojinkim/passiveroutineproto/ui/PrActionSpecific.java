@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.woojinkim.passiveroutineproto.R;
+import com.example.woojinkim.passiveroutineproto.data.NotiData;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -17,8 +18,8 @@ public class PrActionSpecific extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @OnClick(R.id.pr_action_specific_setnoti) void gototrigger() {
-        Intent intent = new Intent(this, PrMakeNew.class);
+    @OnClick(R.id.pr_action_specific_setnoti) void gotoconfirm() {
+        Intent intent = new Intent(this, PrConfirm.class);
         finish();
         startActivity(intent);
     }

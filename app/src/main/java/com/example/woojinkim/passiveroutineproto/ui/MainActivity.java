@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PrMakeNew.class);
         NotiData notidata = new NotiData(time,tokem,message);
         intent.putExtra("come", notidata);
+        finish();
         startActivity(intent);
     }
 
