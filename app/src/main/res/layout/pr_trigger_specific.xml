@@ -4,25 +4,25 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/pr_action_specific_tv"
+        android:id="@+id/pr_trigger_specific_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="pr_action_specific" />
+        android:text="pr_trigger_specific" />
 
     <Button
-        android:id="@+id/pr_action_specific_back"
+        android:id="@+id/pr_trigger_specific_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="x" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/pr_trigger_specific_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/pr_action_specific_toconfirm"
+        android:id="@+id/pr_trigger_specific_toconfirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="OK" />

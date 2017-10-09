@@ -11,11 +11,11 @@ import butterknife.OnClick;
 
 public class PrTriggerSpecific extends AppCompatActivity {
 
-    @OnClick(R.id.pr_action_specific_back) void goback() {
+    @OnClick(R.id.pr_trigger_specific_back) void goback() {
         finish();
     }
 
-    @OnClick(R.id.pr_action_specific_toconfirm) void gototrigger() {
+    @OnClick(R.id.pr_trigger_specific_toconfirm) void gototrigger() {
         Intent intent = new Intent(this, PrConfirm.class);
         finish();
         finish();

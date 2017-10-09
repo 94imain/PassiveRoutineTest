@@ -3,8 +3,10 @@ package com.example.woojinkim.passiveroutineproto.ui;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.woojinkim.passiveroutineproto.R;
+import com.example.woojinkim.passiveroutineproto.data.NotiData;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -34,5 +36,12 @@ public class PrMakeNew extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pr_make_new);
         ButterKnife.bind(this);
+
+        Intent intent = getIntent();
+        NotiData notidata = (NotiData)intent.getSerializableExtra("come");
+        Log.d("findme",""+notidata.time);
+        Log.d("findme",""+notidata.token);
+        Log.d("findme",""+notidata.message);
+
     }
 }

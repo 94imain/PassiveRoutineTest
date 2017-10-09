@@ -11,19 +11,19 @@ import butterknife.OnClick;
 
 public class PrTriggerSelect extends AppCompatActivity {
 
-    @OnClick(R.id.pr_action_select_back) void goback() {
+    @OnClick(R.id.pr_trigger_select_back) void goback() {
         Intent intent = new Intent(this, PrMakeNew.class);
         finish();
         startActivity(intent);
     }
 
-    @OnClick(R.id.pr_action_select_weather) void godate() {
+    @OnClick(R.id.pr_trigger_select_weather) void godate() {
         Intent intent = new Intent(this, PrTriggerGeneralWeather.class);
         finish();
         startActivity(intent);
     }
 
-    @OnClick(R.id.pr_action_select_dateandtime) void goweather() {
+    @OnClick(R.id.pr_trigger_select_dateandtime) void goweather() {
         Intent intent = new Intent(this, PrTriggerGeneralDate.class);
         finish();
         startActivity(intent);

@@ -11,13 +11,13 @@ import butterknife.OnClick;
 
 public class PrActionSelect extends AppCompatActivity {
 
-    @OnClick(R.id.pr_trigger_select_back) void gotomain() {
+    @OnClick(R.id.pr_action_select_back) void gotomain() {
         Intent intent = new Intent(this, PrMakeNew.class);
         finish();
         startActivity(intent);
     }
 
-    @OnClick(R.id.pr_trigger_select_noti) void gototrigger() {
+    @OnClick(R.id.pr_action_select_noti) void gototrigger() {
         Intent intent = new Intent(this, PrActionGeneralNoti.class);
         finish();
         startActivity(intent);

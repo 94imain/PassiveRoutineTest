@@ -1,35 +1,20 @@
 package com.example.woojinkim.passiveroutineproto.data;
 
+import java.io.Serializable;
+
 /**
  * Created by woojinkim on 2017. 10. 8..
  */
 
-public class NotiData {
-    public int getTime() {
-        return time;
-    }
+public class NotiData implements Serializable{
 
-    public void setTime(int time) {
+    public int time;
+    public String token;
+    public String message;
+
+    public NotiData(int time, String token, String message) {
         this.time = time;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
         this.token = token;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
         this.message = message;
     }
-
-    int time;
-    String token;
-    String message;
 }

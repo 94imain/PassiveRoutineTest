@@ -4,21 +4,21 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/pr_action_general_weather_tv"
+        android:id="@+id/pr_trigger_general_weather_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="pr_action_general_weather" />
+        android:text="pr_trigger_general_weather" />
 
     <Button
-        android:id="@+id/pr_action_general_weather_back"
+        android:id="@+id/pr_trigger_general_weather_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="x" />
 
 
     <Button
-        android:id="@+id/pr_action_general_weather_forecast"
+        android:id="@+id/pr_trigger_general_weather_forecast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="just forecast me at" />

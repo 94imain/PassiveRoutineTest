@@ -11,13 +11,13 @@ import butterknife.OnClick;
 
 public class PrActionSpecific extends AppCompatActivity {
 
-    @OnClick(R.id.pr_trigger_specific_back) void gotomain() {
+    @OnClick(R.id.pr_action_specific_back) void gotomain() {
         Intent intent = new Intent(this, PrActionGeneralNoti.class);
         finish();
         startActivity(intent);
     }
 
-    @OnClick(R.id.pr_trigger_specific_setnoti) void gototrigger() {
+    @OnClick(R.id.pr_action_specific_setnoti) void gototrigger() {
         Intent intent = new Intent(this, PrMakeNew.class);
         finish();
         startActivity(intent);

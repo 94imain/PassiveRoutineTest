@@ -4,20 +4,20 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/pr_trigger_select_tv"
+        android:id="@+id/pr_action_select_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="pr_trigger_select" />
+        android:text="pr_action_select" />
 
     <Button
-        android:id="@+id/pr_trigger_select_back"
+        android:id="@+id/pr_action_select_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="X" />
 
     <Button
-        android:id="@+id/pr_trigger_select_noti"
+        android:id="@+id/pr_action_select_noti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notification" />

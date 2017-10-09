@@ -4,26 +4,26 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/pr_action_general_dateandtime_tv"
+        android:id="@+id/pr_trigger_general_dateandtime_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="pr_action_general_dateandtime" />
+        android:text="pr_trigger_general_dateandtime" />
 
     <Button
-        android:id="@+id/pr_action_general_dateandtime_back"
+        android:id="@+id/pr_trigger_general_dateandtime_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="X" />
 
     <Button
-        android:id="@+id/pr_action_general_dateandtime_everyday"
+        android:id="@+id/pr_trigger_general_dateandtime_everyday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Everyday at" />
 
     <Button
-        android:id="@+id/pr_action_general_dateandtime_everyhour"
+        android:id="@+id/pr_trigger_general_dateandtime_everyhour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Every hour at" />

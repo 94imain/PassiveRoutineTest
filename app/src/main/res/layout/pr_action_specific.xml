@@ -4,14 +4,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/pr_trigger_specific_tv"
+        android:id="@+id/pr_action_specific_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
-        android:text="pr_trigger_specific" />
+        android:text="pr_action_specific" />
 
     <Button
-        android:id="@+id/pr_trigger_specific_back"
+        android:id="@+id/pr_action_specific_back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="X" />
@@ -23,7 +23,7 @@
     </EditText>
 
     <Button
-        android:id="@+id/pr_trigger_specific_setnoti"
+        android:id="@+id/pr_action_specific_setnoti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="setNoti" />
