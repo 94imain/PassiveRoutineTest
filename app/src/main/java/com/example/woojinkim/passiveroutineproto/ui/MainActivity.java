@@ -6,21 +6,21 @@ import android.os.Bundle;
 
 import com.example.woojinkim.passiveroutineproto.R;
 import com.example.woojinkim.passiveroutineproto.data.NotiData;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    int time=4;
-    String tokem="hihi";
-    String message="what";
+    String time="default";
+    String token= FirebaseInstanceId.getInstance().getToken();
+    String message="default";
 
     @OnClick(R.id.plus) void addone() {
         Intent intent = new Intent(this, PrMakeNew.class);
-        NotiData notidata = new NotiData(time,tokem,message);
+        NotiData notidata = new NotiData(time,token,message);
         intent.putExtra("come", notidata);
-        finish();
         startActivity(intent);
     }
 
@@ -31,3 +31,5 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 }
+
+

@@ -17,6 +17,7 @@
         android:text="X" />
 
     <EditText
+        android:id="@+id/pr_action_specific_et"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:hint="make noti String">
